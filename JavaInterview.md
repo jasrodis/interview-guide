@@ -15,3 +15,5 @@
 [40 Java Collections Interview Questions and Answers](https://www.journaldev.com/1330/java-collections-interview-questions-and-answers)
 
 [Java Exception Interview Questions and Answers](https://www.journaldev.com/2167/java-exception-interview-questions-and-answers)
+
+[https://www.javatpoint.com/aggregation-in-java](https://www.javatpoint.com/aggregation-in-java)
