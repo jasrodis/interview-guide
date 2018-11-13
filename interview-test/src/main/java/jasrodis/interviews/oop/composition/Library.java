@@ -1,4 +1,4 @@
-package jasrodis.interviews.composition;
+package jasrodis.interviews.oop.composition;
 
 import java.util.List;
 

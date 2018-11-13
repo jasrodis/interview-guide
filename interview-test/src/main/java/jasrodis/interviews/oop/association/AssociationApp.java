@@ -1,4 +1,4 @@
-package jasrodis.interviews.association;
+package jasrodis.interviews.oop.association;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,5 +13,6 @@ public class AssociationApp {
 		Employee emp = new Employee("Neha");
 
 		log.info("[{}] is employee of [{}]", emp.getEmployeeName(), bank.getBankName());
+
 	}
 }

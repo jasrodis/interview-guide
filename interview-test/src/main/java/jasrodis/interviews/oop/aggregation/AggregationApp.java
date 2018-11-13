@@ -1,4 +1,4 @@
-package jasrodis.interviews.aggregation;
+package jasrodis.interviews.oop.aggregation;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,19 +19,19 @@ public class AggregationApp {
 		Student s4 = new Student("Rahul", 2, "EE");
 
 		// And the list of the two first
-		List<Student> cseStudents = new ArrayList<Student>();
+		List<Student> cseStudents = new ArrayList<>();
 		cseStudents.add(s1);
 		cseStudents.add(s2);
 
 		// The list of the two last
-		List<Student> eeStudents = new ArrayList<Student>();
+		List<Student> eeStudents = new ArrayList<>();
 		eeStudents.add(s3);
 		eeStudents.add(s4);
 
 		Department cse = new Department("CSE", cseStudents);
 		Department ee = new Department("EE", eeStudents);
 
-		List<Department> departments = new ArrayList<Department>();
+		List<Department> departments = new ArrayList<>();
 		departments.add(cse);
 		departments.add(ee);
 

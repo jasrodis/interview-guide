@@ -1,4 +1,4 @@
-package jasrodis.interviews.polymorphism;
+package jasrodis.interviews.oop.polymorphism;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

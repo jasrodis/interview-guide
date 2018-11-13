@@ -1,4 +1,4 @@
-package jasrodis.interviews.inheritance;
+package jasrodis.interviews.oop.inheritance;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

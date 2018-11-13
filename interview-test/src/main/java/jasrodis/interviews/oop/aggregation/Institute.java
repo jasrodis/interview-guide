@@ -1,4 +1,4 @@
-package jasrodis.interviews.aggregation;
+package jasrodis.interviews.oop.aggregation;
 
 import java.util.List;
 

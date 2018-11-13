@@ -1,4 +1,4 @@
-package jasrodis.interviews.association;
+package jasrodis.interviews.oop.association;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

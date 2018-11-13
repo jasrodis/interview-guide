@@ -1,4 +1,4 @@
-package jasrodis.interviews.polymorphism;
+package jasrodis.interviews.oop.polymorphism;
 
 public class CarApp {
 

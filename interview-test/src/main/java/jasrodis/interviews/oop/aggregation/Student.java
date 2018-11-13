@@ -1,4 +1,4 @@
-package jasrodis.interviews.aggregation;
+package jasrodis.interviews.oop.aggregation;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,10 +12,8 @@ public class Student {
 	private String dept;
 
 	Student(String name, int id, String dept) {
-
 		this.name = name;
 		this.id = id;
 		this.dept = dept;
-
 	}
 }

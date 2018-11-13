@@ -1,4 +1,4 @@
-package jasrodis.interviews.inheritance;
+package jasrodis.interviews.oop.inheritance;
 
 public class Bentley extends Car {
 
