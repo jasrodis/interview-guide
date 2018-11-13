@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration strict="true">
+	<Appenders>
+		<Console name="StdOut" target="SYSTEM_OUT">
+			<!-- In order to use ANSI Colours, please install ANSI Console eclipse plugin. See Instructions.txt -->
+			<!-- <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" /> -->
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%10t] %highlight{%-5level}{FATAL=red,
+			ERROR=red, WARN=yellow, INFO=cyan, DEBUG=green, TRACE=black} %20c{1.} %highlight{=>}{20}
+				%msg%n" alwaysWriteExceptions="false"/>
+			<ThresholdFilter level="debug" />
+		</Console>
+		<Console name="StdErr" target="SYSTEM_ERR">
+			<ThresholdFilter level="error" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<logger name="jasrodis.interviews" level="debug">
+			<Appender-Ref ref="StdOut" />
+			<Appender-Ref ref="StdErr" />
+		</logger>
+		<Root level="all">
+		<!-- Enable if logging from dependencies is needed -->
+		<!--
+			<Appender-Ref ref="StdOut" />
+			<Appender-Ref ref="StdErr" />
+		-->
+		</Root>
+	</Loggers>
+</Configuration>
